@@ -1,7 +1,10 @@
 "use strict";
 
-//  Euclidean Algorith to find GCD
-var gcdOfTwo = function gcdOfTwo(firstNumber, secondNumber) {
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+//  Euclidean Algorithm to find GCD
+var gcdOfTwo = exports.gcdOfTwo = function gcdOfTwo(firstNumber, secondNumber) {
   var remainder = void 0;
   while (firstNumber % secondNumber > 0) {
     remainder = firstNumber % secondNumber;
@@ -10,5 +13,3 @@ var gcdOfTwo = function gcdOfTwo(firstNumber, secondNumber) {
   }
   return secondNumber;
 };
-
-console.log(gcdOfTwo(7, 77));

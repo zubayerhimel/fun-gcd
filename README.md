@@ -10,15 +10,14 @@ npm i fun-gcd
 
 ```js
 // es5
-const gcd = require('fun-gcd');
+const eq = require("fun-gcd");
 
 // es6
-import gcd from 'fun-gcd';
+import eq from "fun-gcd";
 
-console.log(gcd(2,3))
+console.log(eq.gcdOfTwo(2, 3));
 // => 1
 
-console.log(gcd(7, 77))
+console.log(eq.gcdOfTwo(7, 77));
 // => 7
-
 ```

@@ -10,9 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/zubayerhimel/fun-gcd.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "gcd",
+    "euclidean algorithm"
+  ],
+  "author": "Zubayer",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zubayerhimel/fun-gcd/issues"
   },
